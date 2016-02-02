@@ -1,4 +1,4 @@
-
+#include <math.h>
 #include<iostream>
 #include <fstream>
 #include<stdlib.h>
@@ -61,7 +61,7 @@ int main() {
 	fstream file;
 	long long testNum;
 	long long testTime = 5;
-	file.open("hw2.dat");
+    file.open("hw2.dat");
 	if (!file) {
 		cout << "open file fail!!" << endl;
 		return -1;
