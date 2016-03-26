@@ -1,0 +1,3 @@
+#ifndef LINKEDLIST_HH_
+#define LINKEDLIST_HH_
+

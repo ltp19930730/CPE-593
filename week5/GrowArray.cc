@@ -218,6 +218,7 @@ int main()
     		a.print();
     	}else if(instruct=="REMOVE_FRONT")
     	{
+    		cout<<"hh";
             REMOVE_FRONT=true;
             REMOVE_BACK=false;
             ADD_FRONT=false;
