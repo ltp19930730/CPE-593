@@ -57,10 +57,7 @@ public:
 	}
 	void searchIntable(const string& s)
 	{
-		cout<<"hehe";
 		int index=hash(s);
-		cout<<"haha";
-		cout<<index;
 		if(table[index]!=nullptr){
 		
 		if(*table[index]==s)

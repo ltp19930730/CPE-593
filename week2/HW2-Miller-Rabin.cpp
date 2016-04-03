@@ -1,7 +1,7 @@
 #include <math.h>
-#include<iostream>
+#include <iostream>
 #include <fstream>
-#include<stdlib.h>
+#include <stdlib.h>
 using namespace std;
 // to get the result of  x^n mod m
  int powermod(long long x, long long n, int m) {

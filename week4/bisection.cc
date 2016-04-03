@@ -3,7 +3,8 @@
 #include <utility>
 #include <iomanip>
 using namespace std;
-
+//find the root 
+//using #if 0 #endif is better than /* */
 #if 0
 inline void swap(double&a, double&b)
 {
