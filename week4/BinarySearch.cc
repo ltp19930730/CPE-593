@@ -1,3 +1,6 @@
+//Date:2016-02-13
+//Author:Tianpei Luo
+//CPE593-HW3
 #include <iostream>
 #include <string>
 #include <fstream>
