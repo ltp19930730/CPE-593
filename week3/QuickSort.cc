@@ -9,8 +9,7 @@ using namespace std;
 
 int part(int* a,int start,int end)
 {
- 	int pivotn=rand()%(end-start+1)+start;
- 	int pivot=a[pivotn];
+ 	int pivot=a[end];
  	int index=start;
  	for(int i=start;i<end;i++)
  	{
@@ -20,7 +19,7 @@ int part(int* a,int start,int end)
  			index++;
  		}
  	}
- 	swap(a[index],a[pivotn]);
+ 	swap(a[index],a[end]);
  	return index;
  }
 
